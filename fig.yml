@@ -10,9 +10,6 @@ es:
     build: ./es
     environment:
      - ES_HEAP_SIZE=512m
-    expose:
-     - "9200"
-     - "9300"
     volumes_from:
      - esdata
 esdata:
